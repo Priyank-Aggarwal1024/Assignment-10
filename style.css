@@ -1,0 +1,25 @@
+.header{
+    padding: 0px 60px;
+    border-bottom:1px solid gray;
+
+}
+.header h1{
+    font-size: 24px;
+    font-weight:400px;
+}
+body{
+    margin:0px;
+    padding:0px;
+}
+.main{
+    padding:0px 60px;
+}
+.todo{
+    display:flex;
+    /* justify-content:center; */
+    align-items:center;
+    margin-bottom:5px;
+}
+.cut{
+    text-decoration:line-through;
+}
