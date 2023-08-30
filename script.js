@@ -69,3 +69,5 @@ function getTodo(item){
 }
 
 render()
+
+console.log("Hello World");
