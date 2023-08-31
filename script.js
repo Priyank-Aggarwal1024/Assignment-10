@@ -1,4 +1,4 @@
-todos = [
+let todos = [
     {
         name: "buy eggs",
         id: "1",
@@ -7,7 +7,7 @@ todos = [
     {
         name: "sleep",
         id: "2",
-        done: true
+        done: false
     },
     {
         name: "eat",
@@ -17,15 +17,21 @@ todos = [
     {
         name: "movie",
         id: "4",
-        done: true
+        done: false
     },
     {
         name: "study",
         id: "5",
-        done: true
+        done: false
+    }
+    ,
+    {
+        name: "going to trip",
+        id: "6",
+        done: false
     }
 ]
-const todoContainer=document.getElementById("todo-container")
+const todoContainer=document.querySelector("#todo-container")
 
 function render(){
     todoContainer.innerHTML=""
